@@ -1,5 +1,6 @@
 name: Netch Release CI
 on:
+  workflow_dispatch:
   push:
     tags:
       - '*.*.*'
